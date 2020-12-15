@@ -1,0 +1,142 @@
+@import url('http://fonts.cdnfonts.com/css/freestyle-script');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+  .page {
+    padding-left: 90px;
+    padding-right: 90px;
+  } 
+
+
+.page1 {
+    background-color:#0E0C38 ;
+    vertical-align: top;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.blue {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.blue p {
+    font-family: 'Freestyle Script', sans-serif;
+    font-size: 116px;
+    color: white;
+    margin-top: 30px;
+}
+
+.page1 .header-dots {
+    display: inline-block;
+    vertical-align:top;
+    left: 170px;
+    position: relative;
+    z-index: 1;
+}
+
+.menu {
+    float: right; 
+    font-family: "poppins";   
+}
+
+.menu button {
+    margin-left: 40px;
+    padding: 22px 40px;
+}
+
+.button:hover {
+    background-color: #FF0513;
+}
+
+.menu ul {
+    display: inline-block;
+}
+
+.menu ul li {
+    display: inline-block;
+    font-size: 22px;  
+    cursor: pointer; 
+}
+
+.menu ul li a:hover{
+    background-color:#FF0513;
+}
+
+ a {
+    color: white;
+    text-decoration: none;  
+}
+
+.menu a {
+    padding:65px 25px 25px;
+    display: inline-block;
+}
+
+.button {
+    border: solid 1px white;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    padding: 22px 40px;
+}
+
+.buttons .button {
+    padding: 30px 80px;
+}
+
+
+.text {
+    font-family: 'poppins';
+    color: white;
+    display: inline-block
+}
+
+.name {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.text h6 {
+    font-family: 'poppins';
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+.hallo {
+    font-size: 40px;
+    margin-top: 75px;
+}
+
+.text a {
+    color: red;
+}
+
+.text div {
+    margin-top: 55px;
+    font-family: 'Raleway';
+    font-size: 30px;
+}
+
+.icons img {
+    margin-right: 20px;
+    
+}
+
+.buttons button {
+    margin-right: 25px;
+    border: 1px solid rgb(234, 245, 247);
+    background-color: transparent;
+    border-radius: 65px;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.main-image {
+    display: inline-block;
+    position: absolute;
+    top: 165px;
+   
+}
