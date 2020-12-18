@@ -48,6 +48,7 @@
 
 .button:hover {
     background-color: #FF0513;
+    border-color: #FF0513;
 }
 
 .menu ul {
@@ -80,10 +81,12 @@
     color: white;
     border-radius: 50px;
     padding: 22px 40px;
+    
 }
 
 .buttons .button {
     padding: 30px 80px;
+    
 }
 
 
@@ -121,6 +124,7 @@
 
 .icons img {
     margin-right: 20px;
+    cursor: pointer;
     
 }
 
@@ -140,3 +144,510 @@
     top: 165px;
    
 }
+
+.page2 {
+    background-color: #040221;
+    color: white;
+    padding-top: 200px;
+    font-size: 0;
+    padding-bottom: 140px;
+}
+
+
+.page2 h2 {
+    font-family: "poppins";
+    font-size: 60px;
+    font-weight: 500;
+    float: left;
+    
+}
+
+.page2-text {
+    display: inline-block;
+    font-family: 'poppins';
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 75px;
+    width: 800px;
+}
+
+
+.line {
+    width: 345px;
+    height: 5px;
+    background-color: red;
+    float: right;
+    margin-top: 27px;
+    
+}
+
+.second-p {
+    padding-top: 30px;
+}
+
+.page2-left {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 100px;
+}
+
+.buttons .cv {
+    margin-top: 115px;
+}
+
+.page2-rigth {
+    width: 50%;
+    display: inline-block; 
+    vertical-align: top; 
+    position: relative;
+}
+
+.page2-rigth-image{
+    box-sizing: border-box;
+    padding:75px;
+    background-color: #0E0C38;
+    position: relative;
+    z-index: 1;
+}
+
+.page2-rigth img {
+    width: 100%;
+}
+
+.page2-rigth .hide {
+    position: absolute;
+    z-index: 0;
+    left: -70px;
+    bottom: -70px;
+    height: 400px;
+    width: auto;
+}
+
+.page3.page {
+    background-color: #040221;
+    color: white;
+    padding-top: 95px;
+}
+
+.page3 h2 {
+    font-family: 'poppins';
+    font-size: 50px;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.line2 {
+    width: 340px;
+    height: 4px;
+    background-color: #FF0513;
+    display: inline-block;
+    margin-left: 35px;
+    vertical-align: super;
+}
+
+.left-arrow {
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    transform: rotate(-45deg);
+}
+
+.right-arrow {
+    width: 15px;
+    height: 15px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    transform: rotate(135deg);
+}
+
+
+.buttons2 .button {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.buttons2 {
+    float: right;
+    
+}
+
+.page4 {
+    background-color: #040221;
+
+}
+
+.page4 ul li {
+    display: inline-block;
+    margin: 10px;
+    font-family: 'poppins';
+    font-size: 30px;
+}
+
+.page4 a:hover {
+    color: #FF0513;
+}
+
+
+
+.images>div {
+    display: inline-block;
+}
+
+.images {
+   padding-bottom: 170px;
+ 
+}
+
+.images img {
+    width: auto;
+    margin: 20px;
+}
+
+.page5 {
+    background-color: #0E0C38;
+    padding-bottom: 290px;
+}
+
+.page5 h2 {
+    color: white;
+    font-family: 'poppins';
+    font-size: 60px;
+    padding-top: 90px;
+}
+
+.page5 p {
+    font-family: 'poppins';
+    font-size: 30px;
+    color: white;
+    line-height: 45px;
+    padding-top: 40px;
+    width: 1600px;
+}
+.page5-header {
+    text-align: center;
+
+   
+}
+
+.line3 {
+    width: 350px;
+    height: 2px;
+    background-color: #FF0513;
+    display: inline-block;
+    margin-top: 45px;
+    
+}
+
+.logo {
+    width: 330px;
+    height: 260px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 230px;
+}
+
+.logo h2 {
+    color:white;
+    font-family: 'poppins';
+    font-size: 35px;
+    padding: 20px 20px;
+}
+
+.logo span {
+    font-family: 'poppins';
+    font-size: 22px;
+    color: white;
+    line-height: 2.2;
+
+}
+
+
+.logo a {
+    font-family: 'poppins';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 2.2;
+
+}
+
+.middle-logo {
+   margin:0 290px;
+}
+
+.page6 {
+    background-color: #040221;
+  height: 1300px;;
+}
+
+.page6 h2 {
+    color:white;
+    font-family: 'poppins';
+    font-size: 60px;
+    padding: 20px 20px;
+    padding-top: 100px;
+}
+.page6 p {
+    font-family: 'poppins';
+    font-size: 30px;
+    color: white;
+    line-height: 45px;
+    padding-top: 40px;
+    width: 1600px;
+}
+
+.page6-header {
+    text-align: center;
+}
+
+
+
+.page6-left {
+    display: inline-block;
+    padding-top: 230px;
+    position: relative;
+    box-sizing: border-box;
+    width: 800px;
+
+}
+
+
+.picture1 {
+    position: absolute; 
+    top: 115px;
+    right: 75px;
+}
+
+.picture2 {
+    position: absolute;
+    bottom: -125px;
+    right: 335px;
+}
+
+.picture3 {
+    position: absolute;
+    top: 235px;
+    left: 75px;
+}
+
+.picture4 {
+    position: absolute;
+    right: 75px;
+    bottom: -30px;
+}
+
+.picture5 {
+    position: absolute;
+    bottom: 85px;
+    left: 175px;
+}
+
+.picture6 {
+    position: absolute;
+    top: 285px;
+    right: 335px;
+}
+
+.page6-right {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding-top: 175px;
+    margin-left: 100px;
+    width: 800px;
+}
+
+.red {
+    display: inline-block;
+    height: 50px;
+    width: 13px;
+    background-color: #FF0513;
+    margin: 7px;
+}
+
+
+
+.page6-main {
+    display: inline-block;
+}
+
+.page6-right h6{
+    display: inline-block;
+    line-height: 2;
+    font-family: 'poppins';
+    font-size: 29px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.second-red {
+    margin-left: 100px;
+    display: inline-block;
+    height: 50px;
+    width: 13px;
+    background-color: #FF0513;
+    margin: 7px;
+}
+
+.redline1 {
+    margin-left: 7px;
+} 
+
+.redline2 {
+    margin-left: 280px;
+}
+
+.sara {
+    display: block;
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 2;
+}
+
+.company {
+    font-family: 'poppins';
+    font-size: 22px;
+}
+
+.red-line {
+    display: inline-block;
+    height: 190px;
+    width: 3px;
+    background-color: #FF0513;
+    margin-bottom: 50px;
+}
+
+
+.page7 {
+    text-align: center;
+   padding-bottom: 140px;
+    background-color: #040B33;
+}
+
+.text-header h2 {
+    color: white;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.5;
+}
+
+
+.page7 p {
+    color: white;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2;
+    margin-top: 30px;
+}
+
+.inputs {
+    margin:90px;
+}
+
+.input1 input {
+    margin:40px;
+    height: 80px;
+    width: 500px;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+
+.inputs textarea {
+    margin-top: 40px;
+    box-sizing: border-box;
+    width: 1080px;
+    height: 200px;
+    font-size: 30px;
+    padding: 20px 15px;
+}
+
+.page7 button {
+    padding: 30px 80px;
+    font-family: "Raleway";
+    font-size: 30px;
+}
+
+
+.page8 {
+    background-color: #040221;
+  padding-bottom: 230px;
+    text-align: center;
+}
+
+.page8 .red-line {
+    display: inline-block;
+    height: 85px;
+    width: 2px;
+}
+.page8 p {
+    font-family: 'Freestyle Script', sans-serif;
+    font-size: 116px;
+    color: white;
+    margin-top: 30px;
+}
+
+.page8 .menu2 {
+    margin-top: 50px;
+    float: none;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.page8 .menu2 ul li {
+    padding: 2px;
+    display: inline-block;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.page8 ul li :hover {
+    background-color: #FF0513;
+}
+
+.page8 h5 {
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+}
+
+.page8 .icons {
+    margin-top: 70px;
+}
+
+.footer {
+    margin-top: 100px;
+    border-top: 3px solid gray;
+    text-align: center;
+    background-color: #040221;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer p {
+    display: inline-block;
+    font-family: 'poppins';
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: white;
+
+}
+
